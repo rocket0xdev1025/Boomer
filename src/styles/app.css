@@ -810,6 +810,9 @@ a[aria-disabled="true"] {
 }
 
 .cta__socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.08em;
@@ -818,6 +821,12 @@ a[aria-disabled="true"] {
   padding: 0.45rem 0.8rem;
   background: var(--paper);
   color: var(--ink);
+}
+
+.cta__socials img {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: none;
 }
 
 .cta__legal {
